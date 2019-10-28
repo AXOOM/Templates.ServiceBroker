@@ -42,6 +42,7 @@ docker:
 .deploy:
   stage: deploy
   when: manual
+  allow_failure: false
   image: axoom/gcloud-helmfile
   environment:
     name: $CLUSTER_NAME
