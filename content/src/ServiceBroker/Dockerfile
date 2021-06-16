@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/aspnet:2.2.8
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.1.16
 ARG source
 WORKDIR /app
 EXPOSE 80
